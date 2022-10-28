@@ -94,6 +94,7 @@ class Lift extends Building {
     this.leftLiftControls = -1;
     this.rightLiftControls = -1;
     this.currentPos = null;
+    this.stop=false
   }
 
   handleFunctionality(event) {
