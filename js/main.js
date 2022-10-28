@@ -97,9 +97,10 @@ class Lift extends Building {
     this.stop=false
   }
 
-  handleFunctionality(event) {
+  handleFunctionality(event,d) {
     console.log(this);
     console.log(event);
+    console.log(d)
   }
 
   init() {
