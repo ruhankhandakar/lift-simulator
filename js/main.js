@@ -96,6 +96,7 @@ class Lift extends Building {
     this.currentPos = null;
     this.stop=false
     this.nonStop=false;
+    this.isOverload=false;
   }
 
   handleFunctionality(event,d) {
